@@ -1,0 +1,14 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run the script every hour
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: snake_dqn
+      uses: actions/checkout@v3
+    - name: Run Python Script
+      run: python snake_dqn.py
