@@ -8,7 +8,13 @@ jobs:
   run-python-script:
     runs-on: ubuntu-latest
     steps:
-    - name: snake_dqn
+    - name: Code
       uses: actions/checkout@v3
+    - name: Setting up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.10
+    - name: Install Dependencies
+      run: pip install -r requirements.txt
     - name: Run Python Script
       run: python snake_dqn.py
