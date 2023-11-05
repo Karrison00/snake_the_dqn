@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run the script every hour
+    - cron: '*/15 * * * *'  # Run the script 15 minutes
 
 jobs:
   run-python-script:
