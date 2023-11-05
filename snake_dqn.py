@@ -259,7 +259,10 @@ class grid():
 
       self.score = 0
 
-      self.snake = Snake((10,10),snake_initial_length)
+      x = random.randint(0,19)
+      y = random.randint(0,19)
+
+      self.snake = Snake((x,y),snake_initial_length)
 
       self.food = set()
 
