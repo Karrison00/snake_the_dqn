@@ -467,7 +467,7 @@ class grid():
 
          return self.reward, self.game_over, self.state_Q_table()
 
-NUM_OF_EPISODES = 250
+NUM_OF_EPISODES = 50
 
 discount_factor = 0.99
 
