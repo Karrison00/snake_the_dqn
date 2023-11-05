@@ -259,7 +259,7 @@ class grid():
 
       self.score = 0
 
-      x = random.randint(0,19)
+      x = random.randint(4,19)
       y = random.randint(0,19)
 
       self.snake = Snake((x,y),snake_initial_length)
