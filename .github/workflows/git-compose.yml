@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run the script 15 minutes
+    - cron: '12 12 12 12 6' #At 12:12 on day-of-month 12 and on Saturday in December
 
 jobs:
   run-python-script:
