@@ -720,7 +720,7 @@ for episode in range(NUM_OF_EPISODES):
 
 
 
-    if (episode + 1) % 1000 == 0:
+    if (episode + 1) % 1 == 0:
 
         print(f"Episode {episode + 1}: Score = {episode_reward}")
 
